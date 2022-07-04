@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Fira+Sans:wght@400;500;600;700&family=Noto+Sans+TC:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #f6ecec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainer{
+    width: 60%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 60px;
+}
+/* header */
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+nav a{
+    text-decoration: none;
+    font-weight: 400;
+    color: 00240F;
+}
+.signin{
+    background-color: #EC0000;
+    color: #fff;
+    padding: 5px 24px;
+    border-radius: 25px;
+}
+
+.active{
+    color:#EC0000;
+}
+/* banner */
+.bannerContainer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+  
+}
+.bannerL{
+    height:100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    gap: 20px;
+    }
+.bannerL h1{
+        font-size: 72px;
+        font-weight: bold;
+        text-align: left;
+        justify-content: center;
+        letter-spacing: -2px;
+        color: #00240F;
+    }
+.bannerL p{
+        font-size: 32px;
+        font-weight: 500;
+        color: #00240F;
+
+    }
+.bannerR{
+    height:100%;
+    width: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.bannerR img{
+    width: 80%;
+    height: 100%;
+}
+.orderButton{
+     box-shadow:-10px 20px 40px 0px #EC0000;
+} 
+/* subHeader */
+.subHeader{
+    text-align: center;
+    margin-top: -8px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 74px;
+    color: #00240F;
+}
+.abs1{
+    position: absolute;
+    top: 10px;
+    left: 40%;
+}
+.abs1Img{
+    width: 50px;
+}
+.abs2{
+    position: absolute;
+    top: 520px;
+    right:310px;
+}
+.abs2Img{
+    width: 150px;
+}
+.abs3{
+    position: absolute;
+    bottom: -50px;
+    right:290px;
+}
+.abs3Img{
+    width: 150px;
+}
+.abs4{
+    position: absolute;
+    bottom: -30px;
+    left:300px;
+    z-index: -1;
+
+}
+.abs4Img{
+    width: 150px;
+}
+.abs5{
+    position: absolute;
+    bottom: 200px;
+    left:300px;
+
+}
+.abs5Img{
+    width: 200px;
+}
+.cardsContainer{
+    width: 100%;
+    height: 370px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cards{
+    width: 220px;
+    height: 100%;
+    border: 1px solid #00240F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius:110px;
+    border-top-right-radius:110px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px ;
+    padding: 10px 0;
+
+}
+.imgContainer{
+    width: 180px;
+    margin-top: -8px;
+}
+.cardsHeader{
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    color: #00240F;
+
+}
+.cardsinfo{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #00240F;
+}
+.prize{
+    font-size: 20px;
+    color:#05A84B;  
+    font-weight: 600;
+}
+.select{
+    width: 80%;
+    padding:5px 10px;
+    
+    border-radius: 20px;
+}
+.addButton{
+    width: 80%;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
